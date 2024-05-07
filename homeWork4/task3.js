@@ -4,7 +4,7 @@ const number = 7;
 for (let i=1; i < 11; i++) {
 
 	const result = number*i;
-	console.log (`7 X ${i}=${result}`);
+	console.log (`${number} X ${i}=${result}`);
 }
 
 //Generation of Multiplication Table ('while' cycle)
