@@ -1,12 +1,15 @@
 function isPersonAdult (age) {
 
-	if (age >= 18){
-		console.log (true);
-	}
-	else {
-		console.log (false);
+	if (age >= 18) {
+		return true;
+		
+  }	else {
+		return false;
 	}
 }
 
-isPersonAdult (25);
-isPersonAdult (15)
+const result1 = isPersonAdult (25);
+console.log (result1);
+
+const result2 = isPersonAdult (15);
+console.log (result2);
