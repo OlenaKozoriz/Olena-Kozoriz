@@ -15,7 +15,7 @@ try {
 	let finalResult1 = divide (10, 0);
 	console.log (finalResult1)
 } catch (error) {
-	console.error ("Denominator cannot be 0.", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 };
@@ -24,7 +24,7 @@ try {
 	let finalResult2 = divide (25, 5);
     console.log (finalResult2);
 } catch (error) {
-	console.error ("This is wrong combination of arguments", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 };
@@ -33,7 +33,7 @@ try {
 	let finalResult3 = divide ('', 5);
     console.log (finalResult3);
 } catch (error) {
-	console.error ("Denominator cannot be a space.", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 };
@@ -42,7 +42,7 @@ try {
 	let finalResult4 = divide (undefined, 5);
     console.log (finalResult4);
 } catch (error) {
-	console.error ("Denominator cannot be an undefined value.", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 };
@@ -51,7 +51,7 @@ try {
 	let finalResult4 = divide (12, );
     console.log (finalResult4);
 } catch (error) {
-	console.error ("Nominator should be a number.", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 };
@@ -60,7 +60,7 @@ try {
 	let finalResult5 = divide (368, 27);
     console.log (finalResult5);
 } catch (error) {
-	console.error ("This is wrong combination of arguments", error.message)
+	console.error (error.message)
 } finally {
 	console.log ("Роботу завершено")
 }
