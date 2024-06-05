@@ -20,8 +20,8 @@ for (const planet of filmData.planets) {
     }
 	
 	resultArray.push (
-		{planetName: planetData.name},
-		{residents: residentsArray},
+		{planetName: planetData.name,
+		residents: residentsArray},
 	);
 }
 return resultArray
