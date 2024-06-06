@@ -4,4 +4,4 @@ var isNotAdult = 6 < 18;
 var isAdult = 6 >= 18;
 
 //Results printing
-console.log (ageIvan, isNotAdult, isAdult)
+console.log(ageIvan, isNotAdult, isAdult);

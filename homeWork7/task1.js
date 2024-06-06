@@ -5,17 +5,14 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 for (const element of numbers) {
-	
-	if (element > 0) {
-		positiveCount++;
-	} else 
-		if (element < 0) {
-		negativeCount++;
-	} else 
-		if (element == 0) {
-		zeroCount++;
-	}
+    if (element > 0) {
+        positiveCount++;
+    } else if (element < 0) {
+        negativeCount++;
+    } else if (element == 0) {
+        zeroCount++;
+    }
 }
-console.log (`Кількість позитивних чисел: ${positiveCount}`);
-console.log (`Кількість негативних чисел: ${negativeCount}`);
-console.log (`Кількість нульових чисел: ${zeroCount}`)
+console.log(`Кількість позитивних чисел: ${positiveCount}`);
+console.log(`Кількість негативних чисел: ${negativeCount}`);
+console.log(`Кількість нульових чисел: ${zeroCount}`);
