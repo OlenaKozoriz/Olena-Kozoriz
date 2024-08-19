@@ -11,22 +11,7 @@ export class CarsController extends BaseController {
     async getCars() {
         return this.get(this.createCarEndpoint);
     }
-    //Method for fetching all possible cars' brands
-    // async getAllBrands() {
-    //     const allBrands = await this._axios.get(this._brandsEndpoint);
-    //     return allBrands;
-    // }
 
-    //Method for fetching all possible cars' models associated with the given brand
-    // async getAllModelsForBrand(brandId) {
-    //     const allModels = await this._axios.get(this._modelsEndpoint);
-    //     return allModels;
-    // }
-    //Method for creation all possible combinations of brands and models
-    // async createCars(carData) {
-    //     const result = await this._axios.post(this._createCarEndpoint, carData);
-    //     return result;
-    // }
     async createCar(carBrandId, carModelId, mileage) {
         return this.post(this._createCarEndpoint, {
             carBrandId,

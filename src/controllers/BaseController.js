@@ -3,15 +3,17 @@ import axios from 'axios';
 export class BaseController {
     constructor() {
         this._options = {
-            baseUrl: 'https://qauto.forstudy.space/api',
+            //baseUrl: 'https://qauto.forstudy.space/api',
+            baseUrl: 'https://demoqa.com',
             validateStatus: () => true
         };
         this._axios = axios.create(this._options);
     }
     async login() {
-        const authResponse = await this._axios.post('/auth/signin', {
-            email: 'lenchik13@ukr.net',
-            password: 'Alla26091995',
+        //const authResponse = await this._axios.post('/auth/signin', {
+        const authResponse = await this._axios.post('/swagger/account#/Account/AccountV1AuthorizedPost', {
+            email: 'okozoriz@allvuesystems.com',
+            password: 'zeB3ixNryhyQ074',
             remember: false
         });
         // console.log(authResponse);
