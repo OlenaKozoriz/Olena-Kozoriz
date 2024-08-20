@@ -1,4 +1,6 @@
-const axios = require('axios');
+import axios from 'axios';
+//const axios = require('axios');
+
 const axiosInstance = axios.create({
     timeout: 1000,
     validateStatus: () => true
