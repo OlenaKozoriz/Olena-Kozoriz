@@ -6,9 +6,7 @@
     "scripts": {
         "test": "jest",
         "initJest": "jest --init",
-        "format": "npx prettier  . -c",
-        "lint": "npx eslint .",
-        "prepare": "husky || true"
+        "format": "npx prettier  . -c"
     },
     "author": "Olena Kozoriz",
     "license": "ISC",
@@ -24,6 +22,7 @@
         "globals": "^15.3.0",
         "jest": "^29.7.0",
         "jest-html-reporter": "^3.10.2",
+        "jest-html-reporters": "^3.1.7",
         "prettier": "3.3.1",
         "typescript-eslint": "^7.12.0"
     }

@@ -21,5 +21,8 @@ export default [
             'no-shadow-restricted-names': 'off',
             'no-undef': 'error'
         }
+    },
+    {
+        ignores: ['books.test.js', 'cars.test.js', 'BaseController.js', 'BooksController.js', 'CarsController.js']
     }
 ];
